@@ -13,8 +13,8 @@ public class PieceEmployee extends Employee {
 
 	@Override
 	public double earnings() {
-		// TODO Auto-generated method stub
-		return 0;
+		double earnings = wage * pieces;
+		return earnings;
 	}
 
 }
