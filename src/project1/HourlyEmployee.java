@@ -13,8 +13,8 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   HourlyEmployee concrete class that inherits from the 
-//                 Employee class. HourlyEmployee implements the abstract
-//                 earnings method of Employee.
+//                 abstract Employee class. HourlyEmployee implements the 
+//                 abstract earnings method of Employee.
 //
 //********************************************************************
 
@@ -51,9 +51,8 @@ public class HourlyEmployee extends Employee {
 	public double earnings() {
 		
 		System.out.println("Hourly wage: $" + wage + "; Hours Worked: " + String.format("%.2f", hours));
-		double earnings = wage * hours;
-		return earnings;
+		return wage * hours;
 		
 	}//end earnings method
 
-}
+}//end HourlyEmployee class
