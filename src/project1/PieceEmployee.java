@@ -49,7 +49,7 @@ public class PieceEmployee extends Employee {
     //**************************************************************
 	@Override
 	public double earnings() {
-		
+		System.out.println("Wage Per Peice: $" + wage + "; Pieces produced: " + pieces);
 		double earnings = wage * pieces;
 		return earnings;
 		
