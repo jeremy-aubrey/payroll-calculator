@@ -12,9 +12,9 @@
 //
 //  Instructor:    Fred Kumi 
 //
-//  Description:   BasePlusCommissionEmployee concrete class that inherits from the 
-//                 CommissionEmployee class. BasePlusCommissionEmployee implements the abstract
-//                 earnings method of Employee.
+//  Description:   BasePlusCommissionEmployee concrete class that inherits 
+//                 from the CommissionEmployee class. BasePlusCommissionEmployee 
+//                 implements the abstract earnings method of Employee.
 //
 //********************************************************************
 
@@ -56,4 +56,4 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 		
 	}//end earnings method
 
-}
+}//end BasePlusCommissionEmployee class
