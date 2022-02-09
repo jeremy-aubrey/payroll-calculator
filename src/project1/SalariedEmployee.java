@@ -13,8 +13,8 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   SalariedEmployee concrete class that inherits from the 
-//                 Employee class. SalariedEmployee implements the abstract
-//                 earnings method of Employee.
+//                 abstract Employee class. SalariedEmployee implements 
+//                 the abstract earnings method of Employee.
 //
 //********************************************************************
 
@@ -50,4 +50,4 @@ public class SalariedEmployee extends Employee {
 		
 	}//end earnings method
 
-}
+}//end SalariedEmployee class
