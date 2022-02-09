@@ -41,7 +41,7 @@ public class CommissionEmployee extends Employee {
     // 
     //  Description:  Calculates the earnings for a CommissionEmployee.
     //                Earnings are defined as the product of gross sales 
-	//                and commission rate.
+	//                and commission rate. Prints earnings details.
 	//
     //  Parameters:   None
     //
