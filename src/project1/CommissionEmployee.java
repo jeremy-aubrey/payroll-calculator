@@ -26,8 +26,9 @@ public class CommissionEmployee extends Employee {
 	private double commissionRate;
 	
 	//constructor
-	public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate) {
-		
+	public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, 
+			double grossSales, double commissionRate) 
+	{	
 		super(firstName, lastName, socialSecurityNumber);
 		this.grossSales = grossSales;
 		this.commissionRate = commissionRate;
