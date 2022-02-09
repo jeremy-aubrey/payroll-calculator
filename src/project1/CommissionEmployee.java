@@ -2,10 +2,10 @@ package project1;
 
 public class CommissionEmployee extends Employee {
 	
-	private int grossSales;
+	private double grossSales;
 	private double commissionRate;
 
-	public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, int grossSales, double commissionRate) {
+	public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double commissionRate) {
 		super(firstName, lastName, socialSecurityNumber);
 		this.grossSales = grossSales;
 		this.commissionRate = commissionRate;
@@ -13,6 +13,7 @@ public class CommissionEmployee extends Employee {
 
 	@Override
 	public double earnings() {
+		System.out.println("Gross Sales: $" + String.format("%.2f", grossSales) + "; Commission Rate: " + commissionRate);
 		double earnings = grossSales * commissionRate;
 		return earnings;
 	}
