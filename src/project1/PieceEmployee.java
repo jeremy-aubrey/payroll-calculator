@@ -13,7 +13,7 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   PieceEmployee concrete class that inherits from the 
-//                 Employee class. PieceEmployee implements the abstract
+//                 abstract Employee class. PieceEmployee implements the abstract
 //                 earnings method of Employee.
 //
 //********************************************************************
@@ -49,9 +49,9 @@ public class PieceEmployee extends Employee {
     //**************************************************************
 	@Override
 	public double earnings() {
+
 		System.out.println("Wage Per Peice: $" + wage + "; Pieces produced: " + pieces);
-		double earnings = wage * pieces;
-		return earnings;
+		return wage * pieces;
 		
 	}//end earnings method
 	
