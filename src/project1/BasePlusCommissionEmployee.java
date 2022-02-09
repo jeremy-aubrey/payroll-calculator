@@ -40,7 +40,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
     //  Description:  Calculates the earnings for a BasePlusCommissionEmployee.
     //                Earnings are defined as the product of gross sales 
 	//                and commission rate (implemented in super.earnings()) plus
-	//                base salary.
+	//                base salary. Prints earnings details.
 	//                
     //  Parameters:   None
     //
@@ -51,8 +51,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 	public double earnings() {
 		
 		System.out.print("Base Salary: $" + String.format("%.2f", baseSalary) + "; ");
-		double earnings = super.earnings() + baseSalary;
-		return earnings;
+		return super.earnings() + baseSalary;
 		
 	}//end earnings method
 
