@@ -13,8 +13,8 @@
 //  Instructor:    Fred Kumi 
 //
 //  Description:   CommissionEmployee concrete class that inherits from the 
-//                 Employee class. CommissionEmployee implements the abstract
-//                 earnings method of Employee.
+//                 abstract Employee class. CommissionEmployee implements 
+//                 the abstract earnings method of Employee.
 //
 //********************************************************************
 
@@ -51,9 +51,8 @@ public class CommissionEmployee extends Employee {
 	public double earnings() {
 		
 		System.out.println("Gross Sales: $" + String.format("%.2f", grossSales) + "; Commission Rate: " + commissionRate);
-		double earnings = grossSales * commissionRate;
-		return earnings;
+		return grossSales * commissionRate;
 		
 	}//end earnings method
 
-}
+}//end CommissionEmployee class
