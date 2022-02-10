@@ -39,9 +39,9 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
     // 
     //  Description:  Calculates the earnings for a BasePlusCommissionEmployee.
     //                Earnings are defined as the product of gross sales 
-	//                and commission rate (implemented in super.earnings()) plus
-	//                base salary. Prints earnings details.
-	//                
+    //                and commission rate (implemented in super.earnings()) plus
+    //                base salary. Prints earnings details.
+    //                
     //  Parameters:   None
     //
     //  Returns:      double 
