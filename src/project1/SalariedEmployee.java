@@ -37,7 +37,7 @@ public class SalariedEmployee extends Employee {
     //  Method:       earnings (Non Static)
     // 
     //  Description:  Returns the weekly salary for an SalariedEmployee.
-	//
+    //
     //  Parameters:   None
     //
     //  Returns:      double 
