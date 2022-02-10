@@ -40,9 +40,9 @@ public class HourlyEmployee extends Employee {
     // 
     //  Description:  Calculates the earnings for a HourlyEmployee.
     //                Earnings are defined as the product of the 
-	//                hourly wage and the hours worked.
+    //                hourly wage and the hours worked.
     //                Prints earnings details.
-	//
+    //
     //  Parameters:   None
     //
     //  Returns:      double 
