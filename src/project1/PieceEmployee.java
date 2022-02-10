@@ -40,9 +40,9 @@ public class PieceEmployee extends Employee {
     // 
     //  Description:  Calculates the earnings for a PieceEmployee.
     //                Earnings are defined as the product of the 
-	//                number of pieces produces and the wage per piece.
+    //                number of pieces produces and the wage per piece.
     //                Prints earnings details.
-	//
+    //
     //  Parameters:   None
     //
     //  Returns:      double 
