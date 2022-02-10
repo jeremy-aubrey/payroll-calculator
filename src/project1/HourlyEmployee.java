@@ -51,8 +51,23 @@ public class HourlyEmployee extends Employee {
 	@Override
 	public double earnings() {
 		
-		System.out.println("Hourly wage: $" + wage + "; Hours Worked: " + String.format("%.2f", hours));
-		return wage * hours;
+		double overtimeHours = 0;
+		double overtimeWage = Math.round((wage * 1.5) * 100.0) / 100.0; //round to 2 decimal places
+		double earnings = wage * hours; //default, no overtime
+		
+		//if overtime, recalculate earnings
+		if(hours - 40 > 0) {
+			
+			overtimeHours = hours - 40;
+			earnings = (wage * 40) + (overtimeWage * overtimeHours);
+			
+		} 
+		
+		System.out.println("Hourly wage: $" + wage + "; Regular Hours Worked: " + String.format("%.2f", hours));
+		System.out.println("Overtime wage: $" + overtimeWage + "; Overtime Hours Worked: "
+		+ String.format("%.2f", overtimeHours));
+		
+		return earnings;
 		
 	}//end earnings method
 
