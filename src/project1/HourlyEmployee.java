@@ -36,7 +36,7 @@ public class HourlyEmployee extends Employee {
 		} else {
 			this.wage = 0.00;
 		}
-		//do not allow negative inputs
+		
 		if(hours >= 0) {
 			this.hours = hours;
 		} else {

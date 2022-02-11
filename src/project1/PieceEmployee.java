@@ -38,7 +38,7 @@ public class PieceEmployee extends Employee {
 		} else {
 			this.wage = 0.00;
 		}
-		//do not allow negative inputs
+		
 		if(pieces >= 0) {
 			this.pieces = pieces;
 		} else {
