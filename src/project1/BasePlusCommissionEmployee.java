@@ -37,7 +37,6 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 			this.baseSalary = 0.00;
 		}
 		
-		
 	}//end constructor
 	
     //***************************************************************

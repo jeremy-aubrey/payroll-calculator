@@ -44,7 +44,6 @@ public class CommissionEmployee extends Employee {
 			this.commissionRate = 0.00;
 		}
 		
-		
 	}//end constructor
 
     //***************************************************************
