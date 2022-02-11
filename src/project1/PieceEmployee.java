@@ -32,6 +32,19 @@ public class PieceEmployee extends Employee {
 		this.wage = wage;
 		this.pieces = pieces;
 		
+		//do not allow negative inputs
+		if(wage >= 0) {
+			this.wage = wage;
+		} else {
+			this.wage = 0.00;
+		}
+		//do not allow negative inputs
+		if(pieces >= 0) {
+			this.pieces = pieces;
+		} else {
+			this.pieces = 0;
+		}
+		
 	}//end constructor
 	
     //***************************************************************
