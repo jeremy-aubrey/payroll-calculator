@@ -29,8 +29,19 @@ public class HourlyEmployee extends Employee {
 	public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber, double wage, double hours) {
 		
 		super(firstName, lastName, socialSecurityNumber);
-		this.wage = wage;
-		this.hours = hours;
+		
+		//do not allow negative inputs
+		if(wage >= 0) {
+			this.wage = wage;
+		} else {
+			this.wage = 0.00;
+		}
+		//do not allow negative inputs
+		if(hours >= 0) {
+			this.hours = hours;
+		} else {
+			this.hours = 0.0;
+		}
 		
 	}//end constructor
 	
