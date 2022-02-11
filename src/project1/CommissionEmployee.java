@@ -30,8 +30,20 @@ public class CommissionEmployee extends Employee {
 			double grossSales, double commissionRate) 
 	{	
 		super(firstName, lastName, socialSecurityNumber);
-		this.grossSales = grossSales;
-		this.commissionRate = commissionRate;
+		
+		//do not allow negative inputs
+		if(grossSales >= 0) {
+			this.grossSales = grossSales;
+		} else {
+			this.grossSales = 0.00;
+		}
+		
+		if(commissionRate >= 0) {
+			this.commissionRate = commissionRate;
+		} else {
+			this.commissionRate = 0.00;
+		}
+		
 		
 	}//end constructor
 

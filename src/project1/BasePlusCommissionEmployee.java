@@ -29,7 +29,14 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 			double grossSales, double commissionRate, double baseSalary) 
 	{	
 		super(firstName, lastName, socialSecurityNumber, grossSales, commissionRate);
-		this.baseSalary = baseSalary;
+		
+		//do not allow negative inputs
+		if(baseSalary >= 0) {
+			this.baseSalary = baseSalary;
+		} else {
+			this.baseSalary = 0.00;
+		}
+		
 		
 	}//end constructor
 	
