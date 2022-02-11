@@ -30,6 +30,13 @@ public class SalariedEmployee extends Employee {
 		super(firstName, lastName, socialSecurityNumber);
 		this.weeklySalary = weeklySalary;
 		
+		//do not allow negative inputs
+		if(weeklySalary >= 0) {
+			this.weeklySalary = weeklySalary;
+		} else {
+			this.weeklySalary = 0.00;
+		}
+		
 	}//end constructor
 
     //***************************************************************
