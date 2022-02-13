@@ -38,8 +38,26 @@ public class SalariedEmployee extends Employee {
 		}
 		
 	}//end constructor
+	
+    public double getWeeklySalary() {
+		return weeklySalary;
+	}
 
-    //***************************************************************
+
+
+	public void setWeeklySalary(double weeklySalary) {
+		
+		if(weeklySalary >= 0) {
+			this.weeklySalary = weeklySalary;
+		} else {
+			this.weeklySalary = 0.00;
+		}
+		
+	}
+
+
+
+	//***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
