@@ -68,7 +68,7 @@ public class HourlyEmployee extends Employee {
     // 
     //  Description:  Sets the employee's wage if value is non-negative.
     //
-    //  Parameters:   None
+    //  Parameters:   double
     //
     //  Returns:      N/A 
     //
@@ -106,7 +106,7 @@ public class HourlyEmployee extends Employee {
     // 
     //  Description:  Sets the employee's hours if value is non-negative.
     //
-    //  Parameters:   None
+    //  Parameters:   double
     //
     //  Returns:      N/A 
     //
