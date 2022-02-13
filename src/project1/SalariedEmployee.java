@@ -39,12 +39,35 @@ public class SalariedEmployee extends Employee {
 		
 	}//end constructor
 	
+    //***************************************************************
+    //
+    //  Method:       getWeeklySalary (Non Static)
+    // 
+    //  Description:  Returns the employee's weekly salary.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
     public double getWeeklySalary() {
+    	
 		return weeklySalary;
-	}
+		
+	}//end getWeeklySalary method
 
-
-
+    //***************************************************************
+    //
+    //  Method:       setWeeklySalary (Non Static)
+    // 
+    //  Description:  Sets the employee's weekly salary if value is 
+    //                non-negative.
+    //
+    //  Parameters:   double
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setWeeklySalary(double weeklySalary) {
 		
 		if(weeklySalary >= 0) {
@@ -53,11 +76,9 @@ public class SalariedEmployee extends Employee {
 			this.weeklySalary = 0.00;
 		}
 		
-	}
+	}//end setWeeklySalary method
 
-
-
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
