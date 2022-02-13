@@ -121,7 +121,7 @@ public class HourlyEmployee extends Employee {
 		
 	}//end setHours method
 
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
