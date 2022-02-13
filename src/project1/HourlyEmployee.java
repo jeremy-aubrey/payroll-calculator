@@ -45,7 +45,7 @@ public class HourlyEmployee extends Employee {
 		
 	}//end constructor
 	
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       getWage (Non Static)
     // 
@@ -62,7 +62,7 @@ public class HourlyEmployee extends Employee {
     	
 	}//end getWage method
 
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       setWage (Non Static)
     // 
@@ -83,7 +83,7 @@ public class HourlyEmployee extends Employee {
 		
 	}//end setWage method
 
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       getHours (Non Static)
     // 
@@ -100,7 +100,7 @@ public class HourlyEmployee extends Employee {
 		
 	}//end getHours method
 
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       setHours (Non Static)
     // 
