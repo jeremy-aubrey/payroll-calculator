@@ -46,10 +46,35 @@ public class CommissionEmployee extends Employee {
 		
 	}//end constructor
 	
+    //***************************************************************
+    //
+    //  Method:       getGrossSales (Non Static)
+    // 
+    //  Description:  Returns the employee's gross sales.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
     public double getGrossSales() {
+    	
 		return grossSales;
-	}
+		
+	}//end getGrossSales method
 
+    //***************************************************************
+    //
+    //  Method:       setGrossSales (Non Static)
+    // 
+    //  Description:  Sets the employee's gross sales if value is 
+    //                non-negative.
+    //
+    //  Parameters:   double
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setGrossSales(double grossSales) {
 		
 		if(grossSales >= 0) {
@@ -58,12 +83,37 @@ public class CommissionEmployee extends Employee {
 			this.grossSales = 0.00;
 		}
 		
-	}
+	}//end setGrossSales method
 
+    //***************************************************************
+    //
+    //  Method:       getCommissionRate (Non Static)
+    // 
+    //  Description:  Returns the employee's commission rate.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
 	public double getCommissionRate() {
+		
 		return commissionRate;
-	}
+		
+	}//end getCommissionRate method
 
+    //***************************************************************
+    //
+    //  Method:       setCommissionRate (Non Static)
+    // 
+    //  Description:  Sets the employee's commission rate if value is 
+    //                non-negative.
+    //
+    //  Parameters:   double
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setCommissionRate(double commissionRate) {
 		
 		if(commissionRate >= 0) {
@@ -72,11 +122,9 @@ public class CommissionEmployee extends Employee {
 			this.commissionRate = 0.00;
 		}
 		
-	}
+	}//end setCommissionRate method
 
-
-
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
