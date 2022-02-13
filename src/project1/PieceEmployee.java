@@ -47,11 +47,34 @@ public class PieceEmployee extends Employee {
 		
 	}//end constructor
 	
+    //***************************************************************
+    //
+    //  Method:       getWage (Non Static)
+    // 
+    //  Description:  Returns the employee's wage.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
     public double getWage() {
-		return wage;
-	}
+		
+    	return wage;
+    	
+	}//end getWage method
 
-
+    //***************************************************************
+    //
+    //  Method:       setWage (Non Static)
+    // 
+    //  Description:  Sets the employee's wage if value is non-negative.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setWage(double wage) {
 		
 		if(wage >= 0) {
@@ -60,15 +83,37 @@ public class PieceEmployee extends Employee {
 			this.wage = 0.00;
 		}
 		
-	}
+	}//end setWage method
 
+    //***************************************************************
+    //
+    //  Method:       getPieces (Non Static)
+    // 
+    //  Description:  Returns the employee's pieces produced.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      int 
+    //
+    //***************************************************************
 	public int getPieces() {
+		
 		return pieces;
-	}
+		
+	}//end getPieces method
 
-
-
-
+    //***************************************************************
+    //
+    //  Method:       setPieces (Non Static)
+    // 
+    //  Description:  Sets the employee's pieces produced if value is 
+    //                non-negative.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setPieces(int pieces) {
 
 		if(pieces >= 0) {
@@ -77,12 +122,9 @@ public class PieceEmployee extends Employee {
 			this.pieces = 0;
 		}
 		
-	}
+	}//end setPieces method
 
-
-
-
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
