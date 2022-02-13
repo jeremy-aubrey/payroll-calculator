@@ -45,8 +45,38 @@ public class CommissionEmployee extends Employee {
 		}
 		
 	}//end constructor
+	
+    public double getGrossSales() {
+		return grossSales;
+	}
 
-    //***************************************************************
+	public void setGrossSales(double grossSales) {
+		
+		if(grossSales >= 0) {
+			this.grossSales = grossSales;
+		} else {
+			this.grossSales = 0.00;
+		}
+		
+	}
+
+	public double getCommissionRate() {
+		return commissionRate;
+	}
+
+	public void setCommissionRate(double commissionRate) {
+		
+		if(commissionRate >= 0) {
+			this.commissionRate = commissionRate;
+		} else {
+			this.commissionRate = 0.00;
+		}
+		
+	}
+
+
+
+	//***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
