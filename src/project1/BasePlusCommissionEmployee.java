@@ -39,10 +39,35 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 		
 	}//end constructor
 	
+    //***************************************************************
+    //
+    //  Method:       getBaseSalary (Non Static)
+    // 
+    //  Description:  Returns the employee's base salary.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
     public double getBaseSalary() {
+    	
 		return baseSalary;
-	}
+		
+	}//end getBaseSalary method
 
+    //***************************************************************
+    //
+    //  Method:       setBaseSalary (Non Static)
+    // 
+    //  Description:  Sets the employee's base salary if value is 
+    //                non-negative.
+    //
+    //  Parameters:   double
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setBaseSalary(double baseSalary) {
 		
 		if(baseSalary >= 0) {
@@ -50,9 +75,10 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 		} else {
 			this.baseSalary = 0.00;
 		}
-	}
+		
+	}//end setBaseSalary method
 
-	//***************************************************************
+    //***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
