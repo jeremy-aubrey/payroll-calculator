@@ -46,13 +46,35 @@ public class HourlyEmployee extends Employee {
 	}//end constructor
 	
 	
-	
+	//***************************************************************
+    //
+    //  Method:       getWage (Non Static)
+    // 
+    //  Description:  Returns the employee's wage.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
     public double getWage() {
-		return wage;
-	}
+    	
+    	return wage;
+    	
+	}//end getWage method
 
 
-
+	//***************************************************************
+    //
+    //  Method:       setWage (Non Static)
+    // 
+    //  Description:  Sets the employee's wage if value is non-negative.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setWage(double wage) {
 		
 		if(wage >= 0 ) {
@@ -61,16 +83,38 @@ public class HourlyEmployee extends Employee {
 			this.wage = 0.00;
 		}
 		
-	}
+	}//end setWage method
 
 
-
+	//***************************************************************
+    //
+    //  Method:       getHours (Non Static)
+    // 
+    //  Description:  Returns the employee's hours.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      double 
+    //
+    //***************************************************************
 	public double getHours() {
+		
 		return hours;
-	}
+		
+	}//end getHours method
 
 
-
+	//***************************************************************
+    //
+    //  Method:       setHours (Non Static)
+    // 
+    //  Description:  Sets the employee's hours if value is non-negative.
+    //
+    //  Parameters:   None
+    //
+    //  Returns:      N/A 
+    //
+    //***************************************************************
 	public void setHours(double hours) {
 		
 		if(hours >= 0) {
@@ -79,7 +123,7 @@ public class HourlyEmployee extends Employee {
 			this.hours = 0.0;
 		}
 		
-	}
+	}//end setHours method
 
 
 
