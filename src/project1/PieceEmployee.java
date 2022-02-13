@@ -70,7 +70,7 @@ public class PieceEmployee extends Employee {
     // 
     //  Description:  Sets the employee's wage if value is non-negative.
     //
-    //  Parameters:   None
+    //  Parameters:   double
     //
     //  Returns:      N/A 
     //
@@ -109,7 +109,7 @@ public class PieceEmployee extends Employee {
     //  Description:  Sets the employee's pieces produced if value is 
     //                non-negative.
     //
-    //  Parameters:   None
+    //  Parameters:   int
     //
     //  Returns:      N/A 
     //
