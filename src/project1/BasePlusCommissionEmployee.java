@@ -39,7 +39,20 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 		
 	}//end constructor
 	
-    //***************************************************************
+    public double getBaseSalary() {
+		return baseSalary;
+	}
+
+	public void setBaseSalary(double baseSalary) {
+		
+		if(baseSalary >= 0) {
+			this.baseSalary = baseSalary;
+		} else {
+			this.baseSalary = 0.00;
+		}
+	}
+
+	//***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
