@@ -47,7 +47,42 @@ public class PieceEmployee extends Employee {
 		
 	}//end constructor
 	
-    //***************************************************************
+    public double getWage() {
+		return wage;
+	}
+
+
+	public void setWage(double wage) {
+		
+		if(wage >= 0) {
+			this.wage = wage;
+		} else {
+			this.wage = 0.00;
+		}
+		
+	}
+
+	public int getPieces() {
+		return pieces;
+	}
+
+
+
+
+	public void setPieces(int pieces) {
+
+		if(pieces >= 0) {
+			this.pieces = pieces;
+		} else {
+			this.pieces = 0;
+		}
+		
+	}
+
+
+
+
+	//***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
