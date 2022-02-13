@@ -45,7 +45,45 @@ public class HourlyEmployee extends Employee {
 		
 	}//end constructor
 	
-    //***************************************************************
+	
+	
+    public double getWage() {
+		return wage;
+	}
+
+
+
+	public void setWage(double wage) {
+		
+		if(wage >= 0 ) {
+			this.wage = wage;
+		} else {
+			this.wage = 0.00;
+		}
+		
+	}
+
+
+
+	public double getHours() {
+		return hours;
+	}
+
+
+
+	public void setHours(double hours) {
+		
+		if(hours >= 0) {
+			this.hours = hours;
+		} else {
+			this.hours = 0.0;
+		}
+		
+	}
+
+
+
+	//***************************************************************
     //
     //  Method:       earnings (Non Static)
     // 
